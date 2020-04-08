@@ -1,0 +1,116 @@
+completed codepen https://codepen.io/epg323-the-bashful/pen/wvKwBwB?editors=1100
+
+<!-- Questions to Submit in today's file first-lastname.txt --> 
+<!--
+Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
+
+    1. What is Semantic HTML? 
+        Tags that help show us how our information is organized.
+    2. What is HTML used for? 
+        Structure information for web pages.
+    3. What is an attribute and where do we put it? 
+        In attribute lets you use some of the functionalities in the tag. We place these attributes in the first tag, after the tag name.
+    4. What is the h1 tag used for? How many times should I use it on a page?
+        The h1 is primarily used to style word(s) to look like a Heading. You should use it mainly for main headers.
+    5. Name two tags that have required attributes
+        <link> & <input>
+    6. What do we put in the head of our HTML document?
+        We put in links to stylesheets or js files. We can also put titles and navbars, anything that gives us information on what the content is about. 
+    7. What is an id? 
+        An id lets you identify unique element tags.
+    8. What elements can I add an id to? 
+        All of them.
+    9. How many times can I use the same id on a page? 
+        As many times, but you will reference the first element with the ID. For this situation, class is best.
+    10. What is a class? 
+        Lets you reference a set of tags at the same time under the same class.
+    11. What elements can I add a class to? 
+        Any
+    12. How many times can I use the same class on a page? 
+        As many times as you like.
+    13. How do I get my link to open in a new tab?
+        Set attribute target to "_blank"
+    14. What is the alt attribute in the image tag used for? 
+        Alt gives information on what the image is about incase the user cannot view the image.
+    15. How do I reference an id?
+        In css #{idname}.
+    16. What is the difference between a section and a div
+        Section means the group of tags share a theme. Div means that it grouped a bunch of tag.
+    17. What is CSS used for? 
+        Cascading Style Sheet
+    18. How to we select an element? Example - every h2 on the page
+        h2{}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        Class is for a group of tags, id is for targeting a specific tag. For example if you wanted to target all anchor tags that have a name you can put a class on all of those called "names". Id will be really helpful , for example, if you have a lot of paragraphs but want to target one paragraph.
+    20. How do we select classes in CSS?
+        .className{ }
+    21. How do we select a p element with a single class of “human””?
+        p.human{}
+    22. What is a parent child selector? When would this be useful? 
+        They are useful when selecting elements that exhibit a certain patter. For example if you want to select the first paragraph element within a div tag, you would use a parent-child selector.
+    23. How do you select all links within a div with the class of sidebar?
+        a.sidebar{}
+    24. What is a pseudo selector?
+        Describes a special state of a tag .
+    25. What do we use the change the spacing between lines?
+        line-height
+    26. What do we use to change the spacing between letters?
+        letter-spacing
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        text-transform
+    28. How do I add a 1px border around my div that is dotted and black?
+        border: 1px dotted black;
+    29. How do I select everything on the page? 
+        *{}
+    30. How do I write a comment in CSS?
+        /* comment */
+    31. How do I find out what file I am in, when I am using the command line? 
+        pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+        ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        rm, you have to be careful because you receive no warning or can undo this action.
+    34. Why should I use version control? 
+        To help manage changes and make it easy to work in teams.
+    35. How often should I commit to github?
+        Every time you make a significant change.
+    36. What is the command we would use to push our repo up to github? 
+        git push 
+    37. Walk me through Lambda's git flow. 
+        -First we want to fork the repository. Then add important people to the repository such as your team lead. 
+        -Clone your repository using git clone (https from your forked repo)
+        -Make a new branch so you can make changes. Use the following comming git checkout -b (branch name)
+        -Make the edits you need to make to the codebase
+        -Add changes to your git history using the git add (file name or .)
+        -Commit those changes with the following command git commit -m "First edit".
+        The m helps prevent bringing up the terminal editor, its a much more effecient way of writing what changes you made.
+        -Type git push -u origin branch-name to make push the changes you made to your codebase onto the cloud storage solution(github).
+        -Then go to github.com and click the green button that says pull request.
+        -Select the repository you forked and master branch on the left. On the right select the same repository with the branch that has your name on it.
+        -Go to add reviewers and add your TL.
+        -Finally click merge pull request, once it is reviewed by TL.  
+
+        
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    A block starts on a new line and takes up the whole width. Inline elements take up as much width as necessary and does not start on a new line.
+
+    2. What happens when an element is positioned absolutely? 
+        It is positioned relative to its ancestor element. If there is no ancestor, it will position relative to the body document.
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+        YOU can use a flexbox.
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+        block: p, footer, section
+        inline: <a> <br>
+        inline-block: <img>
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+
+    The box model describes the space around the content of the element. There are different types of spaces around the content. We have the padding, which is the space between the border and the content. Then we have a border which surrounds the content. The space between the border and the outside is the margin. 
+
+    If you wnat to have a set width you need to make sure you declare the size you want for all four parts: margin,padding, border, and content.
+
+
+
+   --> 
